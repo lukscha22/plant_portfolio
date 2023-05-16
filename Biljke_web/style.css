@@ -1,0 +1,58 @@
+header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px brown;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: lightgreen;
+  box-shadow: 0 2px 5px brown;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: brown;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 5px brown;
+}
+
+body {
+  background-color: lightgreen;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: brown;
+  font-size: 18px;
+  line-height: 1.5;
+}
